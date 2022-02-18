@@ -1,6 +1,6 @@
 import { sumAsync, subtractAsync } from "./math.js";
-import { expect } from "../lib/assertion-library.js";
-import { test } from "../lib/testing-framework.js";
+import { expect } from "./lib/assertion-library.js";
+import { test } from "./lib/testing-framework.js";
 
 test("Asynchronous Sum Test", async () => {
   const res = await sumAsync(4, 6);
